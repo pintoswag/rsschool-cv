@@ -1,1 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
 
+body {
+    margin: 100px 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+    box-sizing:border-box ;
+}
+
+.container {
+    width: 800px;
+    min-height: 800px;
+    border: 10px solid white;
+    margin: 0 auto;
+    background: white;
+}
+
+.header {
+    display: flex;
+    height: 150px;
+}
+
+.main{
+    background:gray;
+}
+
+.title-block {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    background: url(https://images.unsplash.com/photo-1516557070061-c3d1653fa646?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80) no-repeat center center / cover;
+    color: white;
+    margin-right: 10px;
+
+}
+
+.userpic {
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background: url(https://sun9-3.userapi.com/s/v1/if2/Etf1MWcrIKZa8oNPXgt_W8PLOQmBVYcCCA4h5cGBm2wxVWYaGM0oJ0pveudvYKBg0cF11ho8Bf_TScNV6bkvXMFB.jpg?size=640x800&quality=96&type=album) no-repeat center center / cover;
+}
+
+.nav ul{
+    display: flex;
+    background: #454A52;
+}
+
+.nav li{
+    list-style-type: none;
+    padding-left: 0;
+}
+.nav li a{
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.nav li a:hover{
+    background: #234254;
+}
+
+.content-wrapper{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    padding:15px;
+}
+
+.sidebar{
+    width: 30%;
+    padding: 15px;
+}
+
+.skills li{
+    margin:10px 0;
+}
+
+.contacts{
+    width: 100%;
+    padding: 15px;
+}
+
+.contacts ul li{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+i{
+    padding-right: 1em;
+}
+
+.example{
+    margin: 0;
+    padding: 15px;
+}
+
+.education{
+    margin: 0;
+    padding: 15px;
+}
+
+.languages{
+    margin: 0;
+    padding: 15px;
+}
+
+.languages ul li{
+    list-style-type: none;
+}
+
+.footer{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.rs_logo {
+    padding-top: 20px;
+    width: 100px;
+    left: 100px;
+}
+
+.git_logo{
+    font-size: 2em;
+    padding-top: 20px;
+    text-decoration: none;
+    color: black;
+    
+}
